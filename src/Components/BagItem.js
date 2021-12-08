@@ -14,7 +14,7 @@ function BagItem({product}) {
     //decrease the quantity
     const decrease = ()=>{
         //can decrease if quantity above 0
-        if (quantity>0){
+        if (quantity>1){
             setQuantity(quantity-1);
         }
     }
@@ -75,7 +75,7 @@ function BagItem({product}) {
                         <p>Product Price: ${product.price},00</p>
                         <p>Quantity: {quantity}</p>
                         <p>Total Price: ${quantity*product.price},00</p>
-                        <br/><br/>
+                        <br/>
                     <button onClick={()=>checkout(product.key)}>CHECKOUT</button>
                     <br/><br/>
                 </div>
