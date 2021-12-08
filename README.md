@@ -1,21 +1,35 @@
-![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
+# project_shop_react
 
-# React Example
+I created an E-commerce application inspired by Apple. 
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+Run npm/yarn install the dependencies
 
-## Deploy Your Own
+Also run npm (install) / yarn (add) these libraries:
 
-Deploy your own React project, along with Serverless Functions, with Vercel.
+⇤ install or add firebase
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app-functions&template=create-react-app)
+⇤ install or add react-router-dom
 
-_Live Example: https://create-react-app.now-examples.now.sh/_
+⇤ install or add react-icons-kit
 
-### How We Created This Example
+⇤ install or add react-firebase-hooks
 
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
+To run the app: yarn dev
 
-```shell
-$ npx create-react-app my-app
-```
+
+### Environment for development
+⇤ Visual Studio Code for coding
+
+⇤ GitHub Desktop for push, commit, and pull to GitHub
+
+### Tools that are used in this project
+In this project, I use ReactJs, a JavaScript library for front-end and back-end.
+I also use Firebase especially for storing images and database (Firestore).
+
+### Deploy the application
+I use Vercel to deploy my application, https://project-ecommerce-ofnfi33z8-ericaan.vercel.app/
+
+I had to create a new repository in GitHub because my previous repository have a problem in building process (deployment in Vercel)
+
+I also have to set the environment in Vercel (Firebase config) and add domain to Firebase for my vercel domain.
+
