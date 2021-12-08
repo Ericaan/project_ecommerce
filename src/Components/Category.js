@@ -1,3 +1,8 @@
+/*
+    Category will get all categories from Firestore.
+    It will also link user to each products that are in the same category
+*/
+
 import "../style/style.css";
 import {db} from "../lib/firebase";
 import React, {useState, useEffect} from 'react';

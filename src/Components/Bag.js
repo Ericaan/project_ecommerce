@@ -1,3 +1,7 @@
+/*
+    Bag will call BagItem.js. 
+*/ 
+
 import "../style/style.css";
 import { auth, db, logout } from "../lib/firebase";
 import React, {useState, useEffect} from 'react';

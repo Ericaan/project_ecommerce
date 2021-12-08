@@ -1,3 +1,11 @@
+/*
+  NavBar will fetch user information that will be used as parameter for Bag
+  NavBar will show two conditions, one if user has not logged in, 
+  it will only show Login with Google
+  The other one is if user has already logged in,
+  they will be able to add items and see the items in their bag(access bag)
+*/
+
 import "../style/style.css";
 import {logout, signInWithGoogle, db} from '../lib/firebase.js';
 import React, {useState, useEffect} from 'react';

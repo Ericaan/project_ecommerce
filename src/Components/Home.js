@@ -1,3 +1,7 @@
+/*
+  Start point for user. It will call NavBar and Category
+*/
+
 import NavBar from './NavBar';
 import Category from './Category';
 import React, {useEffect} from 'react';

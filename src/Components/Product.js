@@ -1,3 +1,12 @@
+/*
+    Product will show all products that are in the same category.
+    For example: Watch SE and Watch Series 7 will be in the same page
+    Product also has button to add the product to user bag. 
+    
+    Product also adds userId in Product collection 
+    so that user can see their added products in their bag
+*/
+
 import "../style/style.css";
 import { auth, db} from "../lib/firebase";
 import React, {useState, useEffect} from 'react';

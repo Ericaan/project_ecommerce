@@ -1,3 +1,10 @@
+/*
+    BagItem will show all items that are added by user to their bag.
+    It will have 2 buttons, one for removing item from bag 
+    and the other one is to checkout.
+    User can increase or decrease the quantity of each product
+*/
+
 import "../style/style.css";
 import {db} from "../lib/firebase";
 import React, {useState, useEffect} from 'react';
