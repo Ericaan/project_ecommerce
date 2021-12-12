@@ -31,13 +31,13 @@ function Category() {
 
   return (
       <div className="products-container">
-          {categories.map(product =>
-          <div className="products-card" key={product.key}>
+          {categories.map(category =>
+          <div className="products-card" key={category.key}>
               <div className="products-img">
-                  <img src={product.imageUrl}/>
+                  <img src={category.imageUrl}/>
               </div>
               <div className="products-name">
-                  <Link to={`/product/${product.key}`} >{product.name}</Link>
+                  <Link to={`/product/${category.key}`} >{category.name}</Link>
               </div>
             <br/>
             </div>
