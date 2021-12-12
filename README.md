@@ -27,7 +27,7 @@ In this project, I use ReactJs, a JavaScript library for front-end and back-end.
 I also use Firebase especially for storing images and database (Firestore).
 
 ### Deploy the application
-I use Vercel to deploy my application, https://project-ecommerce-ofnfi33z8-ericaan.vercel.app/
+I use Vercel to deploy my application, https://project-ecommerce-vert.vercel.app/
 
 I had to create a new repository in GitHub because my previous repository have a problem in building process (deployment in Vercel)
 
