@@ -29,7 +29,3 @@ I also use Firebase especially for storing images and database (Firestore).
 ### Deploy the application
 I use Vercel to deploy my application, https://project-ecommerce-vert.vercel.app/
 
-I had to create a new repository in GitHub because my previous repository have a problem in building process (deployment in Vercel)
-
-I also have to set the environment in Vercel (Firebase config) and add domain to Firebase for my vercel domain.
-
