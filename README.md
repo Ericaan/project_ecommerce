@@ -1,4 +1,4 @@
-# project_shop_react
+# Project Ecommerce
 
 I created an E-commerce application inspired by Apple. 
 
